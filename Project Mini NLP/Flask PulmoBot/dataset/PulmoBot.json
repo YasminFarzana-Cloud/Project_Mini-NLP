@@ -1,0 +1,222 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "p"
+      ],
+      "responses": [
+        "Hai! Pulmobot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Pulmobot, salam kenal ya! Mau tau tentang Pneumonia, kan?",
+        "Helo! Ini Pulmobot. Lagi kepo tentang Pneumonia yaa yaaa?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)",
+        "Dengan senang hati:) Sehat selalu:)",
+        "Dengan senang hati:) Jaga kesehatan yaa:)"
+      ]
+    },
+    {
+      "tag": "Penjelasan_Pneumonia",
+      "patterns": [
+        "Apa itu Pneumonia?",
+        "Pneumonia adalah?",
+        "Apa itu paru-paru basah?",
+        "Apa itu paru paru basah?",
+	      "Paru-paru basah adalah?",
+	      "Paru paru basah adalah?",
+	      "Apa itu radang paru-paru?",
+	      "Apa itu radang paru paru?",
+	      "Radang paru-paru adalah?",
+	      "Radang paru paru adalah?",
+	      "Radang paru-paru?",
+    	  "Radang paru paru?",
+        "Pneumonia?",
+	      "Paru-paru basah?",
+	      "Paru paru basah?"
+      ],
+      "responses": [
+        "Pneumonia atau paru-paru basah atau disebut juga radang paru-paru adalah infeksi paru-paru yang disebabkan oleh bakteri, virus, jamur atau parasit."
+      ]
+    },
+    {
+      "tag": "Gejala_Pneumonia",
+      "patterns": [
+        "Gejala Pneumonia?",
+        "Apa gejalanya?",
+        "Gejala paru-paru basah?",
+        "Gejala paru paru basah?",
+        "Gejala radang paru-paru?",
+        "Gejala radang paru paru?",
+        "Gejalanya apa saja?",
+        "Gejala?"
+      ],
+      "responses": [
+        "Gejala yang dapat terjadi diantaranya adalah batuk kering, batuk berdahak kental berwarna kuning dan hijau, atau batuk berdarah. Sesak napas. Demam. Menggigil. Berkeringat. Nyeri dada ketika menarik napas atau batuk. Detak jantung meningkat. Hilang nafsu makan."
+      ]
+    },
+    {
+      "tag": "Penyebab_Pneumonia",
+      "patterns": [
+        "Penyebab Pneumonia?",
+        "Apa penyebabnya?",
+        "Penyebab paru-paru basah?",
+        "Penyebab paru paru basah?",
+        "Penyebab radang paru-paru?",
+        "Penyebab radang paru paru?",
+        "Penyebabnya apa saja?",
+        "Penyebab?"
+      ],
+      "responses": [
+        "Pneumonia disebabkan oleh infeksi bakteri, virus, dan jamur. Beberapa virus yang umum menyebabkan pneumonia adalah virus influenza, respiratory syncytial virus (RSV), dan SARS-CoV-2. Sementara jenis bakteri yang umum menyebabkan pneumonia adalah Streptococcus pneumonia."
+      ]
+    },
+    {
+      "tag": "Pengobatan_Pneumonia",
+      "patterns": [
+        "Pengobatan Pneumonia?",
+        "Bagaimana pengobatannya?",
+        "Pengobatan paru-paru basah?",
+        "Pengobatan paru paru basah?",
+        "Pengobatan radang paru-paru?",
+        "Pengobatan radang paru paru?",
+        "Pengobatannya bagaimana?",
+        "Cara pengobatan?",
+        "Pengobatan?"
+      ],
+      "responses": [
+        "Pengobatan pneumonia bertujuan untuk mengatasi infeksi, meredakan gejala, dan mencegah komplikasi. Pengobatan akan diberikan sesuai penyebab dan tingkat keparahan kondisi. Sudah separah apa gejalamu, ringan atau berat?"
+      ]
+    },
+    {
+      "tag": "Pengobatan_Gejala_Ringan_Pneumonia",
+      "patterns": [
+        "Pengobatan gejala ringan Pneumonia?",
+        "Bagaimana pengobatan gejala ringan?",
+        "Pengobatan paru-paru basah gejala ringan?",
+        "Pengobatan paru paru basah gejala ringan?",
+        "Pengobatan radang paru-paru gejala ringan?",
+        "Pengobatan radang paru paru gejala ringan?",
+        "Pengobatan gejala ringan bagaimana?",
+        "Cara pengobatan gejala ringan?",
+        "Gejala ringan?"
+      ],
+      "responses": [
+        "Pengobatan pneumonia gejala ringan akan diberikan obat antipiretik dan analgetik, seperti ibuprofen atau paracetamol, untuk meredakan demam dan nyeri. Obat untuk meredakan batuk. Obat antibiotik seperti clarithromycin, azithromycin, atau erythromycin, untuk mengatasi pneumonia yang disebabkan oleh infeksi bakteri. Obat antivirus seperti acyclovir, oseltamivir, atau ketoconazole, untuk mengatasi pneumonia yang disebabkan oleh infeksi virusObat antijamur seperti fluconazole, voriconazole, atau itraconazole, untuk mengatasi pneumonia yang disebabkan oleh infeksi jamur. Penderita pneumonia juga disarankan untuk banyak beristirahat, mengonsumsi makanan bergizi seimbang, serta banyak minum air putih agar tidak kekurangan cairan. PERINGATAN: Perlu konsultasi dari dokter!!"
+      ]
+    },
+    {
+      "tag": "Pengobatan_Gejala_Berat_Pneumonia",
+      "patterns": [
+        "Pengobatan gejala berat Pneumonia?",
+        "Bagaimana pengobatan gejala berat?",
+        "Pengobatan paru-paru basah gejala berat?",
+        "Pengobatan paru paru basah gejala berat?",
+        "Pengobatan radang paru-paru gejala berat?",
+        "Pengobatan radang paru paru gejala berat?",
+        "Pengobatan gejala berat bagaimana?",
+        "Cara pengobatan gejala berat?",
+        "Gejala berat?"
+      ],
+      "responses": [
+        "Jika mengalami gejala yang berat, penderita pneumonia perlu dirawat di rumah sakit. Selama rawat inap di rumah sakit, penderita akan diberikan penanganan berupa: Pemberian antibiotik atau obat lain melalui suntikan. Pemberian oksigen tambahan melalui selang atau masker oksigen, untuk mempertahankan kadar oksigen dalam darah. Pemberian cairan infus, untuk menjaga keseimbangan cairan dan kecukupan nutrisi. Fisioterapi, untuk memaksimalkan penyerapan oksigen dengan melakukan latihan pernapasan. Pasien dengan gejala yang sangat parah perlu ditempatkan dalam ruang perawatan intensif dan dipasangkan ventilator, yaitu mesin untuk membantu pernapasan."
+      ]
+    },
+    {
+      "tag": "Pencegahan_Pneumonia",
+      "patterns": [
+        "Pencegahan Pneumonia?",
+        "Bagaimana pencegahannya?",
+        "Pencegahan paru-paru basah?",
+        "Pencegahan paru paru basah?",
+        "Pencegahan radang paru-paru?",
+        "Pencegahan radang paru paru?",
+        "Pencegahannya bagaimana?",
+        "Cara menghindarinya?",
+        "Pencegahan?"
+      ],
+      "responses": [
+        "Pneumonia dapat dicegah dengan menjalani vaksinasi, menjaga daya tahan tubuh, menjaga kebersihan, tidak merokok, tidak mengonsumsi minuman beralkohol secara berlebihan, menerapkan etika batuk dan bersin, menggunakan alat pelindung diri."
+      ]
+    },
+    {
+      "tag": "Info_Tambahan_Pneumonia",
+      "patterns": [
+        "Lainnya tentang Pneumonia?",
+        "Info tambahan tentang pneumonia?",
+        "Info tambahan tentang paru-paru basah?",
+        "Info tambahan tentang paru paru basah?",
+        "Info tambahan tentang radang paru-paru?",
+        "Info tambahan tentang radang paru paru?",
+        "Info tambahan?",
+        "Lainnya?"
+      ],
+      "responses": [
+        "Pneumonia dapat mempengaruhi siapa pun pada segala usia. Namun demikian, orang lanjut usia (>65 tahun) dan anak-anak adalah yang rentang umur yang paling rentan terjangkit pneumonia ini. Di Indonesia penyakit ini menempati urutan ke 2 sebagai penyakit pembunuh balita."
+      ]
+    },
+    {
+      "tag": "Komplikasi_Pneumonia",
+      "patterns": [
+        "Komplikasi Pneumonia?",
+        "Bagaimana komplikasinya?",
+        "Komplikasi paru-paru basah?",
+        "Komplikasi paru paru basah?",
+        "Komplikasi radang paru-paru?",
+        "Komplikasi radang paru paru?",
+        "Komplikasinya bagaimana?",
+        "Komplikasi?"
+      ],
+      "responses": [
+        "Pneumonia atau paru-paru basah atau disebut juga radang paru-paru dapat membuat komplikasi seperti: 1) Sindroma distress respiratori akut jika pneumonia mempengaruhi kedua paru-paru, menyebabkan kegagalan pertukaran gas. 2) Bacteraemia (akibat bakteri yang masuk ke dalam darah). 3) Emfisema (infeksi saluran udara paru-paru). 4) Abses paru-paru. 5) Efusi pleura (penimbunan cairan di antara dinding dada dan paru-paru). 6) Septic shock (terjangkit penyakit akibat infeksi) dapat memicu kegagalan."
+      ]
+    }
+  ]
+}
